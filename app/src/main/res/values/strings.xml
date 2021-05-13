@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VideoImageCast</string>
+    <string name="none">none</string>
+    <string name="vidNames">vid1.webm,vid2.webm,vid3.webm,vid4.webm</string>
+    <string name="imgNames">img1.jpg,img2.jpg,img3.jpg,img4.jpg</string>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
